@@ -1,0 +1,150 @@
+
+a {
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+
+}
+
+
+.header{
+  width:900px;
+  height: 60px;
+ border-bottom: 1px solid #dddddd;
+ background-color: white;
+ padding:10px 30px;
+
+}
+
+.header-left{
+  float:left;
+  padding:10px 30px;
+}
+.header-left a{
+    color: #808080;
+    font-size: 30px;
+}
+
+.header-left a:hover{
+  color: #3b9485;
+}
+
+.user{
+  position: relative;
+  top:5px;
+  left:-10px;
+  width:20px;
+  height: 20px;
+}
+
+.logout{
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top:5px;
+  left:-5px;
+}
+
+
+.header-right{
+  float:right;
+}
+
+.header-right a{
+  color: #808080;
+}
+
+.header-right a:hover{
+  color: #3b9485;
+}
+
+.header-right li{
+
+    display:inline-block;;
+    margin-right: 20px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.archive{
+  height: 20px;
+  width:20px;
+  position: relative;
+  top:5px;
+  left:-10px;
+}
+
+.contents{
+  background-color:#3b9485;
+  height:800px;
+  text-align: center;
+  padding:50px 300px;
+  position: relative;
+}
+
+.name{
+  font-size:50px;
+  color:white;
+  margin-bottom:30px;
+}
+
+
+.contents ul{
+  padding:40px 40px;
+  background-color:#ddd;
+  border-radius: 10px;
+}
+
+.contents li{
+  background-color:white;
+  margin-bottom:20px;
+  border-radius: 5px;
+  line-height: 50px;
+  color: #808080;
+  font-size: 30px;
+  transition: 0.6s;
+}
+
+.contents li:hover{
+  background-color: #3b9485;
+  color: white;
+  cursor: pointer;
+}
+
+.yajirusi{
+  height: 30px;
+  width: 30px;
+
+}
+
+.le{
+  float: left;
+  height: 20px;
+  width: 20px;
+}
+
+.ri{
+  float: right;
+  height: 20px;
+  width:20px;
+}
+
+
+
+
+  .footer{
+    text-align: center;
+    border-top: 1px solid #ddd;
+  }
+
+  .footer h3{
+    font-size:10px;
+    color: #808080;
+  }
